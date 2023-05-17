@@ -1,10 +1,6 @@
 version: 0.2
 
 phases:
-  install:
-    runtime-versions:
-      java: openjdk17
-      docker: 19
   pre_build:
     commands:
       - echo Logging in to Docker Hub...
