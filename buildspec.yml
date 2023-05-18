@@ -17,4 +17,5 @@ phases:
   post_build:
     commands:
       - echo Pushing the Docker image to Docker Hub...
+      - docker login -u sharadrajore -p seed_9096311380
       - docker push sharadrajore/myapp:latest
