@@ -9,7 +9,7 @@ public class HelloController {
 	@GetMapping("/hello")
 	public String sayHello() {
 		System.out.println("Hi");
-		return "<h1> Hello AWS !!!! </h1>";
+		return "<h1> Hello AWS Code Pipeline </h1>";
 	}
 
 }
